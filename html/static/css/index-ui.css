@@ -1,0 +1,91 @@
+/*
+ * static.https://github.com/insoxin - v1.0.0  License By redy
+ */
+#title-image{
+	height: 10%;
+	width: 100%;
+	
+}
+.header-title {
+	display: inline-block;
+    position: absolute;
+    left: 0;
+	height: 120px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    text-align: center;
+    padding: 18px 17px 0 16.5px;
+}
+.ul-list{
+	text-align: center;
+}
+.ul-list ul{
+	line-height: 40px;
+	border-bottom:2px solid #222222;
+}
+.li-content{
+	/* background-color: #008000; */
+	border-top:1px solid #222222;
+	/* border-bottom:2px solid #222222; */
+	margin-top: 2px;
+}
+p{
+	text-align: center;
+}
+input{
+	background:none;
+	outline:none;  
+	border:none;
+	padding-left: 10px;
+	width: 100%;
+}
+.input-view {
+	
+    -ms-flex-item-align: center;
+    align-self: center;
+    height: 32px;
+    border: 1px solid #b4b4b4;
+    border-radius: 25px;
+    /* margin-bottom: 5px; */
+	margin: 5px auto 8px auto;
+    display: -ms-flexbox;
+	width: 80%;
+	
+    display: flex;
+    -ms-flex: 2;
+    flex: 2;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+	}
+.input-view img{
+	width: auto;
+	 height: 100%;
+}
+
+/* 城市信息css */
+
+.city-ul-list ul{
+	/* line-height: 40px; */
+	border-bottom:2px solid #222222;
+}
+.city-ul-list{
+	text-align: center;
+}
+.city-li-content{
+	padding: 10px 0 10px 0;
+	/* background-color: #008000; */
+	border-top:1px solid #222222;
+	/* border-bottom:2px solid #222222; */
+	margin-top: 2px;
+}
+.city-title{
+	font-size: 18px;
+}
+.city-info{
+	color: #A8A8A8;
+	font-size: 14px;
+}
